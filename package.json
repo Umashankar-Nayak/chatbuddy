@@ -9,7 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview --host 0.0.0.0 --port $PORT",
     "start": "vite preview --host 0.0.0.0 --port $PORT",
-    "postinstall": "yarn install"
+    
   },
   "dependencies": {
     "@google/generative-ai": "^0.2.1",
@@ -34,5 +34,9 @@
     "typescript": "^5.5.3",
     "typescript-eslint": "^8.3.0",
     "vite": "^6.2.3"
+  },
+  "engines": {
+    "node": "20.x",
+    "yarn": "1.x"
   }
 }
