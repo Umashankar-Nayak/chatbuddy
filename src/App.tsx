@@ -49,7 +49,7 @@ function App() {
     girlfriend: {
       id: 'girlfriend' as const,
       name: 'Jenny',
-      avatar: '/avatars/jenny.jpeg', // Use absolute path
+      avatar: '/avatars/Jenny.jpeg', // Use absolute path
       mood: 'happy' as const,
       primaryColor: '#EC4899',
       secondaryColor: '#F472B6',
