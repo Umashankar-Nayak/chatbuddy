@@ -36,12 +36,11 @@ function App() {
       subscription.unsubscribe();
     };
   }, []);
-
   const companions = {
     boyfriend: {
       id: 'boyfriend' as const,
       name: 'Allu',
-      avatar: 'Allu.jpeg', // Local Image Path
+      avatar: '/avatars/Allu.jpeg', // Use absolute path
       mood: 'loving' as const,
       primaryColor: '#4F46E5',
       secondaryColor: '#7C3AED',
@@ -50,13 +49,14 @@ function App() {
     girlfriend: {
       id: 'girlfriend' as const,
       name: 'Jenny',
-      avatar: 'jenny.jpeg', // Local Image Path
+      avatar: '/avatars/jenny.jpeg', // Use absolute path
       mood: 'happy' as const,
       primaryColor: '#EC4899',
       secondaryColor: '#F472B6',
       description: 'A vibrant and empathetic soul who brings warmth and joy to every conversation.'
     }
   };
+  
   
 
   const [state, setState] = React.useState<CompanionState>({
