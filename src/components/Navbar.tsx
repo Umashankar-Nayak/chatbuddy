@@ -18,7 +18,7 @@ export function Navbar({ isLoggedIn, onLogout, onLogin, onHome }: NavbarProps) {
             className="flex-shrink-0 flex items-center group hover:opacity-80 transition-opacity cursor-pointer"
           >
             <MessageSquare className="h-8 w-8 text-indigo-600" />
-            <span className="ml-2 text-xl font-semibold text-gray-900">ChatAI</span>
+            <span className="ml-2 text-xl font-semibold text-gray-900">ChatBuddy</span>
           </button>
           <div>
             {isLoggedIn ? (
